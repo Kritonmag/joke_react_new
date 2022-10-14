@@ -1,0 +1,22 @@
+.header-button {
+  border-radius: 15px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #7289da;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all .7s;
+}
+
+.header-button:not(:last-child) {
+  margin-right: 15px;
+}
+
+.header-button:hover {
+  background-color: #4a6be3;
+  border-radius: 7px;
+}
+
+.header-rg {
+  margin-right: 15px;
+}

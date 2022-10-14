@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+}
+
+.todo-item {
+  width: 90px;
+}
+
+.todo-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.delete {
+  width: 35px;
+  height: 25px;
+  background-color: brown;
+  transition: all .7s;
+  padding: 2px 5px;
+}
+
+.delete:hover {
+  width: 45px;
+  background-color: rgb(235, 27, 27);
+  border-radius: 7px;
+}

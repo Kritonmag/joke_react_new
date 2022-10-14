@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.button-item {
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.person-item {
+  width: 45px;
+  border-radius: 15px;
+  padding: 5px 15px;
+  border: none;
+  background-color: #7289da;
+  cursor: pointer;
+  transition: all .7s;
+}
+
+.person-item:hover {
+  background-color: #4a6be3;
+  border-radius: 7px;
+  width: 60px;
+}
+
+.click {
+  background-color: aqua;
+}
+
+.click:hover {
+  background-color: aqua;
+}

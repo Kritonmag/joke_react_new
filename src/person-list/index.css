@@ -1,0 +1,29 @@
+.person-list {
+  width: 100px;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+/* .person-item {
+  border-radius: 15px;
+  padding: 5px 15px;
+  border: none;
+  background-color: #7289da;
+  cursor: pointer;
+  transition: all .7s;
+}
+
+.person-item:hover {
+  background-color: #4a6be3;
+  border-radius: 7px;
+  padding: 7px 20px;
+}
+
+.person-item:not(:last-child) {
+  margin-bottom: 5px ;
+} */
+
+.click {
+  background-color: aqua;
+}
